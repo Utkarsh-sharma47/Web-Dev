@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>linking css to html</title>
+    <!--inline css-->
+    <h1 style="color : red; background-color: yellow">Linking CSS to HTML</h1>
+
+    <!--internal css-->
+    <style>
+        div{
+            color : red;
+            background-color : rgb(203, 200, 255);
+
+        }
+    </style>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div>
+    hello this is div and already styled by internal css  
+   </div>
+   <h2 class = "heading">   
+    this is styled by external css
+   </h2>
+   <div>
+    hello this is ANOTHER div and already styled by internal css  
+   </div>
+</body>
+</html>

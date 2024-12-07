@@ -1,0 +1,13 @@
+/* to acces class we use = .nameofclass */
+.red
+{
+    color: white;
+    background-color: rgb(69, 69, 69);
+}
+.bgYellow
+{
+    background-color: yellow;
+}
+body{
+    background-color: black;
+}

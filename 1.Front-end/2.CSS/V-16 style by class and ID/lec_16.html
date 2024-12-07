@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- seleactor    -->
+<html>
+    <head>
+        <title> using selectors in css</title>
+        <!--element selector :: all div will be styled like that only-->
+        <style>
+            div {
+                color:green;
+                background-color: pink;
+            }
+            /* Class selector: mention this classt o apply this selector in any element */
+            .one{
+                color:blue
+            }
+            /* child selector of class 'div' */
+            div>p{
+                color: aliceblue;
+                background-color: blueviolet;
+            }
+            /* universal child selector : mean kaise bhi div ke andar 'p' aa jae toh it will excute the style*/
+            span article{
+                color: aliceblue;
+                background-color: brown;
+            }
+
+            /* Id selector */
+            #id_sel
+            {
+                background-color: aquamarine;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <!-- element selector -->
+        <div>
+            hello this is div by element selector
+        </div>
+        <!-- class selector -->
+        <span class="one">
+            this is class wala span
+         </span>
+         <!-- id selector -->
+         <p id="id_sel">ID selector</p>
+
+         <!-- direct child -->
+         <div>
+            <p>this is a para under div</p>
+         </div>
+
+         <!-- universal child -->
+         <span>
+            <a>this is a para under div
+                <article>hello this is indirect child of span</article>
+            </a>
+        </span>
+
+
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--QUIZ: make form without <br> -->
+ <html>
+     <head>
+         <title>Info form</title>
+         <h1>Personal information</h1>
+     </head>
+     <!-- learn all block and inline elements -->
+     <body>
+         <form>
+            <label for="name">Enter name</label>
+            <input type="text" id="name" placeholder="naam"><br> 
+            <label for="dob">DOB</label>
+            <input type="date" id="dob"> <br>
+            <!-- name same hai isliye at a time dono mai se ek hi select hoga -->
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="FeMale">FeMale</label>
+            <input type="radio" id="FeMale" name="gender" value="FeMale"> <br>
+
+            <label for="checkbot">Are you bot</label>
+            <input type="checkbox" id="checkbot">
+
+            <div>
+                <label for="comment">Comment</label><br>
+                <textarea rows="5" cols="20">enter your comment</textarea> 
+            </div>
+
+            <div>
+                <select name="Rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+            </div>
+
+
+         </form>
+ 
+     </body>
+ </html>
