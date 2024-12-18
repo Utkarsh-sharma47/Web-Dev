@@ -12,5 +12,5 @@ console.log("Harry")
 console.log(document.querySelectorAll(".box"))
 
 document.querySelectorAll(".box").forEach(e =>{
-    e.style.backgroundColor = "green";
+    e.style.backgroundColor = "blue";
 }) 
