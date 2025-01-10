@@ -1,0 +1,26 @@
+{
+  "name": "nodemon",
+  "version": "1.0.0",
+  "description": "testing package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utkarsh-sharma47/Web-Dev.git"
+  },
+  "author": "utkarsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Utkarsh-sharma47/Web-Dev/issues"
+  },
+  "homepage": "https://github.com/Utkarsh-sharma47/Web-Dev#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {}
+}
