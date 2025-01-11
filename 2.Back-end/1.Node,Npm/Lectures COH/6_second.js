@@ -1,0 +1,1 @@
+export const a = 69 // name export
